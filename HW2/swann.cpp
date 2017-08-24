@@ -69,8 +69,7 @@ int main(int argc, char* argv[])
     cout << "Bounds of Minima = (" << xm << "," << xp << ")\n";
 
   cout << "iterations = " << n - 1 << "\n";
-  cout << q <<"\n";
-
+  
   return 0;
 }
 
