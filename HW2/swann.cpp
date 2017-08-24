@@ -76,6 +76,6 @@ int main(int argc, char* argv[])
 double func(double x)
 {
   double f;
-  f = pow(x,2) + x -2*sqrt(x); // Change the funtion here
+  f = pow(x,2) + x - 2*sqrt(x); // Change the funtion here
   return f;
 }
