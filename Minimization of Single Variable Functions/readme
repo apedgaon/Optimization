@@ -1,0 +1,17 @@
+Above codes are used to bound and find the minima of single variable functions i.e. y = f(x)
+
+Steps to run:
+
+1) Download all files in a single directry on any linux machine
+2) Change functions and their derivatives in func.cpp and gfunc.cpp and save
+3) Open terminal in the same directory
+4) Type: make all
+5) This will generates 4 executable files namely: swann, fib, gsec, nraph
+6) Run the desired executatble file by typing: ./name (name = fib, gsec ...)
+
+swann - Bounds the minima of a function using Swann's Algorithm (Inputs - start point x, step size delta)
+fib - Bounds the minima of the function using Fibonacci's Algorithm (Inputs - start point x, step size delta)
+gsec - Finds minima of the function using Golden Section Algorithm (Inputs - lower bound xl, upper bound xu, Accuracy of Minima)
+nraph - Finds minima of the function using Newton Raphsons Algoritm on derivatives (Inputs - initial guess x0, Accuracy of minima)
+
+*** Note nraph requires function to be twice differentiable
